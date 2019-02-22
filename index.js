@@ -54,7 +54,7 @@ if (typeof Promise === 'undefined') {
  *   definition: 'https://github.com/OAI/OpenAPI-Specification/blob/master/examples/v3.0/petstore.yaml'
  * })
  * .then(function (apiDefinition) {
- *   console.log('Documentation URL: ', api.documentationUrl);
+ *   console.log('Documentation URL: ', apiDefinition.documentationUrl);
  * }, function (err) {
  *   console.error(err.stack);
  * });
